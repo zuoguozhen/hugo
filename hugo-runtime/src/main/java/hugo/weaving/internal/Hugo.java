@@ -118,6 +118,6 @@ public class Hugo {
     if (cls.isAnonymousClass()) {
       return asTag(cls.getEnclosingClass());
     }
-    return cls.getSimpleName();
+    return cls.getName();
   }
 }
